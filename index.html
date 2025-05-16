@@ -2,14 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Tic-Tac-Toe</title>
+  <title>Bringing Tic-Tac-Toe to Life</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>TIC-TAC-TOE</h1>
-  <div class="board" id="board"></div>
-  <div class="status" id="status"></div>
-  <button class="reset-btn" id="resetBtn">Restart Game</button>
+  <div class="bg-gradient"></div>
+  <div class="game-card glass">
+    <h1>Bringing Tic-Tac-Toe to Life</h1>
+    <div class="mode-select">
+      <button id="singleBtn" class="active">Single Player</button>
+      <button id="multiBtn">Multiplayer</button>
+    </div>
+    <div class="status" id="status"></div>
+    <div class="board" id="board"></div>
+    <canvas id="winLine"></canvas>
+    <button class="reset-btn" id="resetBtn">Restart Game</button>
+  </div>
+  <footer>
+    <p>&copy; 2025 Your Name | Inspired by "Bringing Tic-Tac-Toe to Life"</p>
+  </footer>
   <script src="script.js"></script>
+  </script>
 </body>
 </html>
